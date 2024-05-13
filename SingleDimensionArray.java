@@ -83,12 +83,12 @@ public class SingleDimensionArray {
 
         singleDimensionArray.traverse();
 
-        singleDimensionArray.deleteValue(3); // Deleting specific value
+        singleDimensionArray.deleteValue(3); // Deleting a value
         singleDimensionArray.traverse();
 
-        singleDimensionArray.deleteArray(); // Deleting whole array
+        singleDimensionArray.deleteArray(); // Deleting the whole array
         singleDimensionArray.traverse();
 
-        singleDimensionArray.search(4); // Searching for value
+        singleDimensionArray.search(4); // Searching for a value
     }
 }
