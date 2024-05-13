@@ -52,7 +52,7 @@ public class SingleDimensionArray {
 
     // 3. To delete the whole array
     public void deleteArray() {
-        Arrays.fill(arr, Integer.MIN_VALUE); // Resetting all elements to default value
+        Arrays.fill(arr, Integer.MIN_VALUE); // To reset all the elements to default value
         System.out.println("Array deleted successfully.");
     }
 
