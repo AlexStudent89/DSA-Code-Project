@@ -11,7 +11,7 @@ public class SingleDimensionArray {
         Arrays.fill(arr, Integer.MIN_VALUE); // To fill the array with the value
     }
 
-    // 1. To insert into an array
+    // 1. insert into an Array
     public void insert(int location, int valueToInsert) {
         try {
             if (arr[location] == Integer.MIN_VALUE) {
@@ -25,7 +25,7 @@ public class SingleDimensionArray {
         }
     }
 
-    // 2. To traverse an array
+    // 2. Traverse an Array
     public void traverse() {
         System.out.println("Array elements:");
         for (int i = 0; i < arr.length; i++) {
@@ -56,7 +56,7 @@ public class SingleDimensionArray {
         System.out.println("Array deleted successfully.");
     }
 
-    // 4. Searching for an element in the array
+    // 4. Search for an element in an Array
     public void search(int valueToSearch) {
         boolean valueFound = false;
         for (int i = 0; i < arr.length; i++) {
